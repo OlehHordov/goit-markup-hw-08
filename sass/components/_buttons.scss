@@ -1,0 +1,107 @@
+.hero-button {
+    text-align: center;
+    border-radius: 4px;
+    height: 50px;
+    padding: 10px 32px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--hero-color);
+}
+.modal-btn {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    height: 50px;
+    padding: 10px 55px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--hero-color);
+}
+.modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--hero-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover 
+    {
+    fill: var(--accent-color);
+    }
+}
+.footer-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 28px;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--hero-color);
+    background: var(--accent-color);
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.footer__icon-btn {
+    margin-left: 10px;
+    top: 10;
+    right: 0;
+    transform: translateY(0);
+}
+.filter__button {
+    transition: color var(--transition-duration) var(--transition-timing-function),
+        background-color var(--transition-duration) var(--transition-timing-function),
+        box-shadow var(--transition-duration) var(--transition-timing-function);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 6px 22px;
+    background-color: #f5f4fa;
+    border: rgba(0, 0, 0, 0.25);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+
+    &:hover,
+    &:focus {
+            color: var(--hero-color);
+            background-color: var(--accent-color);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+        }
+}
+.portfolio__list-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.filter__item {
+    margin-right: 8px;
+}
+
+.filter__item:last-child {
+    margin-right: 0;
+}
