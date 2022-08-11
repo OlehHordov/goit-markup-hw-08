@@ -1,5 +1,19 @@
 .section-work {
-    padding-top: 0;
+    padding-top: 60px;
+
+
+    @media screen and (min-width:480px) {
+        display: none;
+
+    }
+
+    @media screen and (min-width:1200px) {
+        display: block;
+
+    }
+
+
+
 }
 
 .section-title {
@@ -17,9 +31,10 @@
 .works__item {
     position: relative;
     margin-right: 30px;
+
     &:last-child {
-            margin-right: 0;
-        }
+        margin-right: 0;
+    }
 }
 
 
